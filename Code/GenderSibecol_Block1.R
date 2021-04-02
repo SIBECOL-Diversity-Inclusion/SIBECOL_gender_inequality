@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------
 # PROJECT: SIBECOL GENDER ANALYSIS / BLOCK 1
 # DESCRIPTION: Code to analyze the contributions to the conference.
-# Authors: SIBECOL Diversity and Inclusion Commission (diversity@sibecol.org)
+# Authors: SIBECOL Diversity and Inclusion Commission 
 #------------------------------------------------------------------------------
 
 #Clean memory
