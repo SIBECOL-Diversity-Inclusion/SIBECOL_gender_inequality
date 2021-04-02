@@ -22,9 +22,9 @@ library(reshape)
 library(car)
 library(cowplot)
 library (smatr)
-library(dplyr)
 library(tidyverse)
 library(ggplot2)
+library(dplyr)
 
 # Set working directories
 
@@ -42,8 +42,7 @@ ResultPath = paste0(path, "/Results")
 
 setwd(DataPath)
 dades_all = read.csv(file="data_2B.csv", header=TRUE, sep=";")
-dades = dades_all %>% select (talk.type, session, speaker.sex, chair.sex, attendees, attendees.women, attendees.men)
-
+dades = dades_all %>% select(talk.type, session, speaker.sex, chair.sex, attendees, attendees.women, attendees.men)
 
 # Q: WHAT WAS THE GENDER DISTRIBUTION OF ATTENDEES? ####
 
@@ -159,7 +158,7 @@ plot(predict(mod.without.gender),residuals(mod.without.gender))
 
 setwd(DataPath)
 dades_all = read.csv(file="data_2B.csv", header=TRUE, sep=";")
-dades = dades_all %>% select (talk.id, talk.type, session, speaker.sex, chair.sex, attendees, attendees.women, attendees.men, total.questions, questions.women, questions.men)
+dades = dades_all %>% select(talk.id, talk.type, session, speaker.sex, chair.sex, attendees, attendees.women, attendees.men, total.questions, questions.women, questions.men)
 
 # Q: HOW MANY TALKS DID NOT GET ANY QUESTION? WAS IT RELATED TO THE GENDER OF THE SPEAKER/CHAIR? ####
 
@@ -180,13 +179,13 @@ chisq.test(dades$questions.YN, dades$chair.sex) # p = 0.35, no dif for chair.sex
 
 ## all data (n = 218) ----------------------------------------------------------------
 
-dades %>% select (speaker.sex, total.questions) %>% group_by(speaker.sex) %>% summarize_all(mean) # questions: W = 1.62, M = 1.51
+dades %>% select(speaker.sex, total.questions) %>% group_by(speaker.sex) %>% summarize_all(mean) # questions: W = 1.62, M = 1.51
 
 t.test(dades$total.questions ~ dades$speaker.sex) # p = 0.519, no dif for speakr.sex
 
 ## only for talks with questions (n = 177) ----------------------------------------------------------------
 
-dades %>% select (speaker.sex, total.questions) %>% filter (total.questions > 0) %>%
+dades %>% select(speaker.sex, total.questions) %>% filter (total.questions > 0) %>%
           group_by(speaker.sex) %>% summarize_all(mean) # questions: W = 2.05, M = 1.93
 
 t.test(total.questions ~ speaker.sex, subset(dades, total.questions >0)) # p = 0.491, no dif for speakr.sex
@@ -265,11 +264,7 @@ dades.speaker.men = dades.chairs %>% filter (speaker.sex == "M") %>%
 chisq.test(dades.speaker.women$chair.question.YN, dades.speaker.women$chair.sex) # p = 0.004, dif when speaker = F
 chisq.test(dades.speaker.men$chair.question.YN, dades.speaker.men$chair.sex) # p = 0.274, no dif when speaker = M
 
-#------------------------------------------------------------------------------------
-# # FIGURES
-#------------------------------------------------------------------------------------
-
-# PREPARATION ####
+# FIGURES ######################################################################
 
 #Set theme we will use for all plots
 
@@ -417,12 +412,12 @@ dades_all = read.csv(file="data_2B.csv", header=TRUE, sep=";")
 
 
 dades.speaker.women = dades_all %>% filter (speaker.sex == "W") %>%
-                                    mutate (chair.question.YN = ifelse(chair.question == "no", "no", "yes")) %>%
-                                    select (talk.id, speaker.sex, chair.sex, chair.question.YN)
+  mutate (chair.question.YN = ifelse(chair.question == "no", "no", "yes")) %>%
+  select (talk.id, speaker.sex, chair.sex, chair.question.YN)
 
 dades.speaker.men = dades_all %>% filter (speaker.sex == "M") %>%
-                                  mutate (chair.question.YN = ifelse(chair.question == "no", "no", "yes")) %>%
-                                  select (talk.id, speaker.sex, chair.sex, chair.question.YN)
+  mutate (chair.question.YN = ifelse(chair.question == "no", "no", "yes")) %>%
+  select (talk.id, speaker.sex, chair.sex, chair.question.YN)
 
 data.plot = full_join(dades.speaker.women, dades.speaker.men)
 
