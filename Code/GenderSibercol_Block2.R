@@ -2,7 +2,7 @@
 # PROJECT: SIBECOL GENDER ANALYSIS / BLOCK 2
 # DESCRIPTION: Code to to analyze the attendance, gender bias in sessions and 
 #              behavior during Q&A times.
-# Authors: SIBECOL Diversity and Inclusion Commission (diversity@sibecol.org)
+# Authors: SIBECOL Diversity and Inclusion Commission 
 #------------------------------------------------------------------------------
 #Clean memory
 
