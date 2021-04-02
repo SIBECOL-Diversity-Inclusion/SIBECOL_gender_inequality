@@ -11,7 +11,6 @@ rm(list = ls())
 # Load packages
 
 library(reshape)
-library(plyr)
 library(tidyverse)
 library(sqldf)
 library(lme4)
@@ -59,7 +58,7 @@ count(dat) # 232
 
 dat %>% 
   group_by(gender) %>%  
-  summarise(n = dplyr::n()) %>%  
+  summarise(n = n()) %>%  
   mutate(freq = (n / sum(n))*100) # 60% W, 38% M, 1% NA
 
 # Career stage distrubtion among responders (Q7.7)  
@@ -888,3 +887,4 @@ ggsave(Figure_6,
        filename="Figure 6.pdf",
        path = ResultPath,
        width = 10, height = 6)
+
