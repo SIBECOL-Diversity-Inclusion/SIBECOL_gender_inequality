@@ -25,9 +25,7 @@ To answer the abovementioned questions, we compiled and analized data in three m
 - __`GenderSibecol_Block2.R`__: to analyze the attendance, gender bias in sessions and behavior during Q&A times.
 - __`GenderSibecol_Block3.R`__: to analyze the the perception of the attendees on women participation and visibility, gender barriers, and conference environment.
 
-These analyses are critical to detect the mechanisms driving gender bias in academic conferences, and to develop evidence-based policymaking promoting inclusive scientific conferences for female researchers.
-
-For a detailed explanation of the methods, please see the methods section of the main manuscript.
+_For a detailed explanation of the methods, please see the methods section of the main manuscript._
 
 # Software
 _R version 3.5.1 or greater_
