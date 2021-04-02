@@ -2,7 +2,7 @@
 # PROJECT: SIBECOL GENDER ANALYSIS / BLOCK 3
 # DESCRIPTION: Code to represent the results from the survey
 #              part of the SIBECOL gender bias study
-# Authors: #Will fill later on
+#  Authors: SIBECOL Diversity and Inclusion Commission
 #------------------------------------------------------------------------------
 #Clean memory
 
