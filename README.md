@@ -1,7 +1,7 @@
 # SIBECOL_gender_inequality
 This repository contains the code for the statistical analyses in "Towards women-inclusive Ecology: Representation, behavior, and perception of women at an international conference".
 
-Authors: Anna Lupon<sup>1</sup>, Pablo Rodríguez-Lozano<sup>2,3</sup>, Mireia Bartrons<sup>4</sup>, Alba Anadon-Rosell<sup>5,6</sup>, Meritxell Batalla<sup>6</sup>, Susana Bernal<sup>1</sup>, Andrea G. Bravo<sup>7</sup>, Pol Capdevila<sup>8,9</sup>, Miguel Cañedo-Argüelles<sup>10</sup>, Núria Catalán<sup>11</sup>, Ana Genua-Olmedo<sup>12</sup>, Cayetano Gutiérrez-Cánovas<sup>13</sup>, Maria João Feio<sup>14</sup>, Federica Lucati<sup>1,15,16</sup>, Gabriela Onandia<sup>17,18</sup>, Sílvia Poblador<sup>19</sup>, Roser Rotchés-Ribalta<sup>6</sup>, Anna Sala-Bubaré<sup>20</sup>, María Mar Sánchez-Montoya<sup>21,22</sup>, Marta Sebastián<sup>7</sup>, Aitziber Zufiaurre<sup>6,23</sup>, Ada Pastor<sup>24</sup> 
+__Authors__: Anna Lupon<sup>1</sup>, Pablo Rodríguez-Lozano<sup>2,3</sup>, Mireia Bartrons<sup>4</sup>, Alba Anadon-Rosell<sup>5,6</sup>, Meritxell Batalla<sup>6</sup>, Susana Bernal<sup>1</sup>, Andrea G. Bravo<sup>7</sup>, Pol Capdevila<sup>8,9</sup>, Miguel Cañedo-Argüelles<sup>10</sup>, Núria Catalán<sup>11</sup>, Ana Genua-Olmedo<sup>12</sup>, Cayetano Gutiérrez-Cánovas<sup>13</sup>, Maria João Feio<sup>14</sup>, Federica Lucati<sup>1,15,16</sup>, Gabriela Onandia<sup>17,18</sup>, Sílvia Poblador<sup>19</sup>, Roser Rotchés-Ribalta<sup>6</sup>, Anna Sala-Bubaré<sup>20</sup>, María Mar Sánchez-Montoya<sup>21,22</sup>, Marta Sebastián<sup>7</sup>, Aitziber Zufiaurre<sup>6,23</sup>, Ada Pastor<sup>24</sup> 
 
 <sup>1</sup> Integrative Freshwater Ecology Group, Centre d’Estudis Avançats de Blanes (CEAB-CSIC), Blanes, Spain
 
