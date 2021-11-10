@@ -63,17 +63,17 @@ To answer the abovementioned questions we used three different datasets:
 
 - __`Data_Block1.csv`__: contains information of the contributions to the conference, such as type of contribution (e.g. oral, poster), presenters gender, presenters career stage. 
 - __`Data_Block2.csv`__: contains information about each of the sessions, such as speaker and gender (see Appendix S1 in the main manuscript). 
-- __`Data_Block3.txt`__: contains answers to the questionaire about the perception of the attendants to the conference (see Appendix S2 in the main manuscript). 
+- __`Data_Block3.txt`__: contains answers to the questionnaire about the perception of the attendants to the conference (see Appendix S2 in the main manuscript). 
 
-_All the data used in this study is anonymous and respected the privacy of the participants to the conference._
+_All the data used in this study is anonymous and respected the privacy of the participants at the conference._
 
 # Code
 
-To answer the abovementioned questions, we compiled and analized data in three main blocks using three indpendent R scripts: 
+To answer the abovementioned questions, we compiled and analized data in three main blocks using three independent R scripts: 
 
 - __`Rcode_Block1.R`__: to analyze the contributions to the conference.
 - __`Rcode_Block2.R`__: to analyze the attendance, gender bias in sessions and behavior during Q&A times.
-- __`Rcode_Block3.R`__: to analyze the the perception of the attendees on women participation and visibility, gender barriers, and conference environment.
+- __`Rcode_Block3.R`__: to analyze the perception of the attendees on women participation and visibility, gender barriers, and conference environment.
 
 _For a detailed explanation of the methods, please see the methods section of the main manuscript._
 
