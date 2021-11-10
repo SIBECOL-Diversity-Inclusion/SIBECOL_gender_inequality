@@ -17,7 +17,7 @@ __Authors__: Anna Lupon<sup>1</sup>, Pablo Rodríguez-Lozano<sup>2,3</sup>, Mire
 
 <sup>7</sup> Department of Marine Biology and Oceanography, Institut de Ciències del Mar (ICM-CSIC), Barcelona, Spain
 
-<sup>8</sup> School of Biological Sciences, University of Bristol, Bristol, United Kingdom
+<sup>8</sup> School of Biological Sciences, University of Bristol, Bristol, UK
 
 <sup>9</sup> Department of Zoology, University of Oxford, Oxford OX1 3SZ, UK
 
@@ -33,7 +33,7 @@ __Authors__: Anna Lupon<sup>1</sup>, Pablo Rodríguez-Lozano<sup>2,3</sup>, Mire
 
 <sup>15</sup> Centre for Ecology, Evolution and Environmental Changes (cE3c), University of Lisbon, Lisbon, Portugal 
 
-<sup>16</sup> Universitat Pompeu Fabra (UPF), Barcelona, Spain
+<sup>16</sup> Department of Political and Social Sciences, Universitat Pompeu Fabra (UPF), Barcelona, Spain
 
 <sup>17</sup> Research Platform Data Analysis and Simulation, Leibniz Centre for Agricultural Landscape Research (ZALF), Müncheberg, Germany
 
@@ -47,7 +47,7 @@ __Authors__: Anna Lupon<sup>1</sup>, Pablo Rodríguez-Lozano<sup>2,3</sup>, Mire
 
 <sup>22</sup> Department of Biodiversity, Ecology, and Evolution, Universidad Complutense de Madrid, Madrid, Spain
 
-<sup>23</sup> AECOM-URS, Barcelona, Spain.
+<sup>23</sup> Área de Biodiversidad, Gestión Ambiental de Navarra-Nafarroako Ingurumen kudeaketa (GAN-NIK), Pamplona-Iruñea, Navarra.
 
 <sup>24</sup> Department of Biology, Aarhus University, Aarhus, Denmark
 
